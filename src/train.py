@@ -36,9 +36,9 @@ from tensorpack.train import (
     launch_train_with_config,
 )
 
-import loader.loader as loader
+import loader
 from config import Config
-from misc.utils import get_files
+from utils import get_files
 
 from sklearn.metrics import roc_auc_score
 

@@ -13,8 +13,8 @@ from skimage.morphology import remove_small_objects, watershed
 
 from config import Config
 
-from misc.viz_utils import visualize_instances
-from misc.utils import remap_label
+from viz_utils import visualize_instances
+from utils import remap_label
 
 
 def process_utils(pred_map, mode):

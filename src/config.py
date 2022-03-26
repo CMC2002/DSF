@@ -6,9 +6,9 @@ import importlib
 import numpy as np
 import tensorflow as tf
 
-import opt.augs as augs
+import augs
 
-from model.utils.gconv_utils import get_basis_filters, get_rot_info, get_basis_params
+from gconv_utils import get_basis_filters, get_rot_info, get_basis_params
 
 
 class Config(object):

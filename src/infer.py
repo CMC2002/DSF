@@ -31,8 +31,8 @@ from tensorpack.predict import OfflinePredictor, PredictConfig
 from tensorpack.tfutils.sessinit import get_model_loader
 
 from config import Config
-from misc.utils import rm_n_mkdir, cropping_center
-from model.utils.model_utils import crop_op
+from utils import rm_n_mkdir, cropping_center
+from model_utils import crop_op
 
 import json
 import operator

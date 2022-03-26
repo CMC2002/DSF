@@ -8,8 +8,8 @@ from tensorpack import *
 from tensorpack.models import BNReLU, Conv2D, MaxPooling
 from tensorpack.tfutils.summary import add_moving_summary, add_param_summary
 
-from model.utils.model_utils import *
-from model.utils.gconv_utils import *
+from model_utils import *
+from gconv_utils import *
 
 import sys
 
